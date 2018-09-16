@@ -1,3 +1,4 @@
 [
-    "./src/less/**/*.less"
+    "./src/less/**/*.less",
+    "./node_modules/bootstrap/less/bootstrap.less"
 ]
