@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp start"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,16 @@
   "homepage": "https://github.com/kyrierose/adres#readme",
   "dependencies": {
     "angular": "^1.7.4",
-    "angular-route": "^1.7.4"
+    "angular-route": "^1.7.4",
+    "angular-ui-router": "^1.0.20",
+    "bootstrap": "^3.3.7"
   },
   "devDependencies": {
     "browser-sync": "^2.24.7",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1"
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^4.0.1",
+    "gulp-uglify": "^3.0.1"
   }
 }
